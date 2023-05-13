@@ -29,7 +29,7 @@ def generate_launch_description():
             arguments='0.0 0.0 0.0 0.0 0.0 0.0 map odom'.split(' '),
             parameters=[parameter_file],
             output='screen'
-            ),
+        ),
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
